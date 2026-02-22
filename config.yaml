@@ -1,0 +1,27 @@
+app:
+  title: "CareerAI - Your Personal Career Advisor"
+  icon: "🎯"
+  description: "AI-powered career guidance, resume tips, and job search strategies"
+  version: "1.0.0"
+
+gemini:
+  model: "gemini-2.5-flash"
+  max_output_tokens: 1024
+  temperature: 0.7
+  top_p: 0.95
+  top_k: 40
+
+conversation:
+  max_history_turns: 20
+  session_timeout_minutes: 60
+
+ui:
+  max_message_display: 50
+  show_token_usage: true
+  show_session_info: true
+  avatar_user: "user"
+  avatar_bot: "assistant"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
